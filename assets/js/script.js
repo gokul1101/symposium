@@ -217,17 +217,18 @@ function getData() {
       <h5>NON -TECHNICAL Events</h5>
     </div>
     <div class="main-wrapper">
-      <div class="event event2">
+      <div class="event event2" style=" width: 45%; padding: 4%;">
         <div class="event-content event2-content">
           <h2>
-            pubG
+            Need For Speed
           </h2>
           <div class="event-text">
             <p>
-              In this event, each team should have atmost 4 contestants.
+              In this event, totally there are 3 rounds.
+              <br>winner and runner will be rewarded.
             </p>
-            <h4>WINNER WINNER CHICKEN DINNER..!</h4>
-            <h4>CHILL BRO..!</h4>
+            <h4>P a y b a c k!</h4>
+
           </div>
         </div>
       </div>
@@ -365,14 +366,14 @@ function getData() {
       <h1>Committee</h1>
       <ul class="committee">
         <li>
-          <p><b> K.Gokul</b> (Secretory)</p>
+          <p><b> K.Gokul</b> (Chairman)</p>
         </li>
         <li>
-          <p><b> Nair Binesh Balan </b> (Joint Secretory)</p>
+          <p><b> Nair Binesh Balan </b> (Secretory)</p>
         </li>
         <li>
           <p>
-            <b> T. Prakash</b>(Assistant Secretory)
+            <b> T. Prakash</b>(Joint Secretory)
           </p>
         </li>
         <li>
@@ -388,9 +389,56 @@ function getData() {
   </div>
 </div>
 </div>
-<footer style="flex-shrink: 0;">
-        Ddev test
-    </footer>`;
+<footer id="contact" class="footer-distributed" style="flex-shrink: 0;">
+
+<div class="footer-left">
+
+  <h3><span>K.S.R.</span>College of Engineering</h3>
+
+  <p class="footer-links">
+    <a href="#" class="link-1">Home</a>
+    
+    <a href="#events">Events</a>
+ 
+    <a href="#">About</a>
+   
+    <a href="#">Contact</a>
+  </p>
+
+  <p class="footer-company-name"> © 2020 - K.S.R. College Of Engineering.</p>
+</div>
+
+<div class="footer-center">
+
+  <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>K.S.R Kalvi Nagar</span>Tiruchengode, Namakkal-637215</p>
+  </div>
+
+  <div>
+    <i class="fa fa-phone"></i>
+    <p>(+91) 9865991491 (Chairman)</p>
+  </div>
+
+  <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="mailto:support@company.com">gokulkbkkrish@gmail.com</a></p>
+  </div>
+
+</div>
+
+<div class="footer-right">
+
+  <p class="footer-company-about">
+      Designed and developed by FutureDevelopers
+  </p>
+
+  <div class="footer-icons">
+  
+  </div>
+
+</div>  
+</footer>`;
   document.getElementById("root").innerHTML = header;
   getTransition();
 }
@@ -403,6 +451,11 @@ const getTransition = () => {
       navbar.classList.toggle("nav-change");
     });
   });
+  navItem.forEach( nav =>{
+    nav.addEventListener("click", () => {
+      navbar.classList.toggle("nav-change");
+    });
+  })
 
   var active = document.querySelector("header");
 
