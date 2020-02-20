@@ -384,7 +384,7 @@ nav {
   width: 60%;
 }
 .gif5 {
-  background: url("../images/giphy.gif") center no-repeat;
+  background: url("../images/unnamed.jpg") center no-repeat;
 }
 
 .event {
@@ -829,12 +829,10 @@ h1 span:nth-child(9) {
 	margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #92999f;
-	font-size: 14px;
+.footer-distributed .footer-company-about b{
+	color:  #ffecd3;
+	font-size: 18px;
 	font-weight: bold;
-	margin-bottom: 20px;
 }
 
 

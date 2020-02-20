@@ -1,5 +1,6 @@
 function getData() {
-  const header = `    <div class="container-fluid" id="#home">
+  const header = `    
+  <div class="container-fluid" >
   <header>
     <nav>
       <div class="nav-brand">
@@ -52,7 +53,7 @@ function getData() {
       </ul>
     </nav>
   </header>
-  <div class="wrapper">
+  <div class="wrapper" id="home">
     <div class="main-content">
       <div class="hero">
         <img
@@ -189,7 +190,7 @@ function getData() {
               In this event, computer related topics or any latest
               technologies can be presented.
             </p>
-            <h4></h4>
+            <p></p>
           </div>
         </div>
       </div>
@@ -201,14 +202,13 @@ function getData() {
       <div class="event event1">
         <div class="event-content event1-content">
           <h2>
-            Coding challenge
+            Code debugging
           </h2>
           <div class="event-text">
             <p>
-              In this event, each team should have atmost 2 contestants.
+              In this event, the given code have to be solved.
             </p>
-            <h4>Round 1: MCQ test (written).</h4>
-            <h4>Round 2: Final round (online).</h4>
+            <h4>Try to solve our code.</h4>
           </div>
         </div>
       </div>
@@ -240,11 +240,11 @@ function getData() {
       <div class="event event1">
         <div class="event-content event1-content">
           <h2>
-            WORD BEATER
+            Photography & <br>short-film
           </h2>
           <div class="event-text">
-            <p>In this event, only 1 contestant.</p>
-            <h4>Prove your speed.</h4>
+            <p>Upload your photos in instagram link given below.</p>
+              <p>Short film must have atleast 10 mins of duration.</p>
           </div>
         </div>
       </div>
@@ -417,12 +417,16 @@ function getData() {
 
   <div>
     <i class="fa fa-phone"></i>
-    <p>(+91) 9865991491 (Chairman)</p>
+    <p>(+91) 9865991491 (K.Gokul)</p>
   </div>
 
   <div>
     <i class="fa fa-envelope"></i>
-    <p><a href="mailto:support@company.com">gokulkbkkrish@gmail.com</a></p>
+    <p><a href="#">ablazet20@gmail.com</a></p>
+  </div>
+  <div>
+    <i class="fab fa-instagram"></i>
+    <p><a href="https://www.instagram.com/ablaze_t20?r=nametag">Instagram</a></p>
   </div>
 
 </div>
@@ -430,12 +434,8 @@ function getData() {
 <div class="footer-right">
 
   <p class="footer-company-about">
-      Designed and developed by FutureDevelopers
+      Designed and developed by <b>FutureDevelopers</b>
   </p>
-
-  <div class="footer-icons">
-  
-  </div>
 
 </div>  
 </footer>`;
