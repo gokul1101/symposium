@@ -156,7 +156,34 @@ function getData() {
     <p id="demo"></p>
   </div>
 </div>
+<div class="cards-list">
+  
+<div class="card one">
 
+  <div class="card_title title-white">
+    <h4>Symposium</h4>
+    <p>Registration Fee:  &#8377;200 only</p>
+  </div>
+</div>
+
+  <div class="card two">
+
+  <div class="card_title title-white">
+    <h4>Work Shop</h4>
+    <p>Registration Fee:  &#8377;200 only</p>
+  </div>
+</div>
+
+<div class="card three">
+  <div class="card_title title-white">
+  <h4>Combo</h4>
+  <p>Registration Fee:  &#8377;300 only</p>
+  </div>
+</div>
+  
+
+
+</div>
 <div class="symp-events">
   <div class="heading">
     <h5>TECHNICAL Events</h5>
@@ -173,8 +200,7 @@ function getData() {
             <p>
               In this event, each team should have atmost 2 contestants.
             </p>
-            <h4>Round 1: MCQ test (written).</h4>
-            <h4>Round 2: Final round (online).</h4>
+            <h4> MCQ test (online).</h4>
           </div>
         </div>
       </div>
@@ -190,7 +216,7 @@ function getData() {
               In this event, computer related topics or any latest
               technologies can be presented.
             </p>
-            <p></p>
+            <p>Cash prize will be awarded for winner and runner.</p>
           </div>
         </div>
       </div>
@@ -217,7 +243,7 @@ function getData() {
       <h5>NON -TECHNICAL Events</h5>
     </div>
     <div class="main-wrapper">
-      <div class="event event2" style=" width: 45%; padding: 4%;">
+      <div class="event event2" style=" width: 48%; padding: 3%;">
         <div class="event-content event2-content">
           <h2>
             Need For Speed
@@ -228,6 +254,7 @@ function getData() {
               <br>winner and runner will be rewarded.
             </p>
             <h4>P a y b a c k!</h4>
+            <p>Registration Fees: &#8377;50</p>
 
           </div>
         </div>
@@ -244,7 +271,8 @@ function getData() {
           </h2>
           <div class="event-text">
             <p>Upload your photos in instagram link given below.</p>
-              <p>Short film must have atleast 10 mins of duration.</p>
+              <p>Short film must have atleast 10 mins of duration.</p>    
+      <p><a href="https://www.instagram.com/ablaze_t20?r=nametag" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
           </div>
         </div>
       </div>
@@ -424,17 +452,14 @@ function getData() {
     <i class="fa fa-envelope"></i>
     <p><a href="#">ablazet20@gmail.com</a></p>
   </div>
-  <div>
-    <i class="fab fa-instagram"></i>
-    <p><a href="https://www.instagram.com/ablaze_t20?r=nametag">Instagram</a></p>
-  </div>
+  
 
 </div>
 
 <div class="footer-right">
 
   <p class="footer-company-about">
-      Designed and developed by <b>FutureDevelopers</b>
+      Designed and developed by <a href="#"><b>Future Developers</b></a>
   </p>
 
 </div>  
